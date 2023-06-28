@@ -2,7 +2,6 @@ import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import "./App.css";
 import { ChristmasTree } from "./ChristmasTree";
-//@ts-ignore
 import { SimpleBox } from "./SimpleBox";
 import { SpinnyBox } from "./SpinnyBox";
 
