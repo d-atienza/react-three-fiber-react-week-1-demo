@@ -11,18 +11,20 @@ export function ChristmasTree(props: ChristmasTreeProps) {
            
             {/* top cone of tree */}
             <mesh position={[0, 3.4, 0]} scale={[0.7, 2 * 0.7, 0.7]}>
-            <Sparkles count={25} scale={2} size={6} speed={0.4}/>
+            <Sparkles count={10} scale={2} size={6} speed={0.4}/>
                 <coneGeometry />
                 {/* <meshStandardMaterial color={"forestgreen"} /> */}
                 <meshStandardMaterial color={"orange"} />
             </mesh>
             {/* middle cone of tree */}
             <mesh position={[0, 2.7, 0]} scale={[0.8, 2 * 0.8, 0.8]}>
+            <Sparkles count={20} scale={2} size={6} speed={0.4}/>
                 <coneGeometry />
                 <meshStandardMaterial color={"red"} />
             </mesh>
             {/* bottom cone of tree */}
             <mesh position={[0, 2, 0]} scale={[1, 2, 1]}>
+            <Sparkles count={40} scale={2} size={6} speed={0.4}/>
                 <coneGeometry />
                 <meshStandardMaterial color={"pink"} />
             </mesh>
